@@ -1,1 +1,3 @@
-# week_18_redis_exam
+# Danny Goldberg
+# Arava
+# 209428713
