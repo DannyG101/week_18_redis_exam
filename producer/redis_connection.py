@@ -8,7 +8,7 @@ REDIS_HOST = os.getenv("REDIS_HOST")
 REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
 
 def connect_to_redis():
-    r = redis.Redis(host=REDIS_HOST,
+    connection = redis.Redis(host=REDIS_HOST,
                     port=REDIS_PORT,
                     decode_responses=True)
-    return r
+    return connection
